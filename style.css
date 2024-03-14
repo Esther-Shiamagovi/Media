@@ -1,0 +1,54 @@
+#container{
+border: solid 1px;
+border-radius: solid 10px;
+padding: 30px;
+margin: 5px;
+background-color: beige;
+
+
+}
+#navbar{
+    display: flex;
+    gap: 90px;
+}
+#text{
+    text-align: center;
+}
+#container2{
+    display: flex;
+}
+.sec1{
+    display: flex;
+    gap: 2px;
+
+}
+
+#size{
+    width: 150px;
+    height: 150px;
+}
+#image{
+    display: flex;
+    gap: 70px;
+}
+#image2{
+    gap: 20px;
+    justify-content: center;
+}
+.size1{
+    width: 20px;
+    height: 10px;
+}
+.size2{
+    width: px;
+    height: 18px;
+}
+#footer{
+    display: flex;
+    gap: 120px;
+}
+@media screen and (min-width=375px){
+ 
+    
+    
+}
