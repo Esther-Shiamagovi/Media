@@ -15,7 +15,12 @@ background-color: beige;
     text-align: center;
 }
 #container2{
-    display: flex;
+    display: grid;
+}
+#size5{
+    width: 200px;
+    height: 150px;
+    line-break: 20px;
 }
 .sec1{
     display: flex;
@@ -39,16 +44,48 @@ background-color: beige;
     width: 20px;
     height: 10px;
 }
+#text{
+    text-align: center;
+    line-break: 30px;
+}
 .size2{
     width: px;
     height: 18px;
+
 }
+#container3{
+    display: flex;
+    gap: 7px;
+}
+
+
 #footer{
     display: flex;
     gap: 120px;
 }
 @media screen and (min-width=375px){
  
-    
-    
+    #container{
+        border: solid 1px;
+        border-radius: solid 2px;
+        padding: 10px;
+        margin: 1px;
+
+}
+#navbar{
+    display: flex;
+    gap: 10px;
+}
+#container2{
+    display: flex;
+    gap: 1px;
+}
+#size5{
+    width: 50px;
+    height: 150px;
+    line-break: 20px;
+}
+
+
+
 }
